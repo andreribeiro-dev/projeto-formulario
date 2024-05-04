@@ -36,6 +36,7 @@
                         required
                         >
                     </div>
+
                     <!-- Preço -->
                     <div class="box-input">
                         <label for="price"
@@ -50,6 +51,7 @@
                         required
                         />
                     </div>
+
                     <!-- Descrição -->
                     <div class="box-input">
                         <label for="description"
@@ -62,13 +64,13 @@
                         placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se ele tem algum arranhão"
                         ></textarea>
                     </div>
+
                     <!-- Marca -->
                     <div class="box-input">
-                        <label for="brand"
-                        >Marca <span class="required-field">*</span><label
+                        <label for="brand">Marca <span class="required-field">*</span></label
                         >
                         <input 
-                        type="t" 
+                        type="text" 
                         name="brand" 
                         id="brand" 
                         class="block" 
@@ -76,10 +78,11 @@
                         required
                         />
                     </div>
+
                     <!-- Modelo -->
                     <div class="box-input">
                         <label for="model"
-                        >Modelo <span class="required-field">*</span><label
+                        >Modelo<span class="required-field">*</span></label
                         >
                         <input 
                         type="text" 
@@ -90,10 +93,11 @@
                         required
                         />
                     </div>
+                    
                     <!-- Quilometragem -->
                     <div class="box-input">
                         <label for="mileage"
-                        >Quilometragem <span class="required-field">*</span><label
+                        >Quilometragem <span class="required-field">*</span></label
                         >
                         <input 
                         type="number" 
@@ -104,6 +108,7 @@
                         required
                         />
                     </div>
+
                     <!-- Data de compra-->
                     <div class="box-input">
                         <label for="purchase_date"
@@ -116,6 +121,20 @@
                         class="block" 
                         required
                         />
+                    </div>
+
+                    <!-- Tipo de câmbio -->
+                    <div class="box-input">
+                        <p>Tipo de câmbio: <span class="requeridfile">*</span></p>
+                        <input type="radio" id="manuel" name="gear" />
+                        <label for="manual">Manual</label>
+                        <input type= "radio" id="auto" name="gear" />
+                        <label for="auto">Automático</label>
+                    </div>
+
+                    <!-- Opcionais -->
+                    <div class="box-input">
+                        <p></p>
                     </div>
 
                     <input type="submit" value="Enviar">
